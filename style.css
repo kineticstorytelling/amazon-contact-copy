@@ -1,0 +1,93 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'amazon-ember', Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #131A22;
+}
+.container form{
+    border: 1px solid rgb(236, 235, 235);
+    padding: 5px 20px 20px 20px;
+    margin-top: 20vh;
+    border-radius: 5px;
+}
+.container form h1{
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.container label{
+    font-size: 12px;
+}
+.container input{
+    width: 20vw;
+    padding: 5px;
+    margin: 7px 0 10px 0;
+}
+.container .pw{
+    font-size: 12px;
+    text-decoration: none;
+    float: right;
+    color: #2e8cd3;
+}
+.container .hlp{
+    font-size: 12px;
+    text-decoration: none;
+    color: #2e8cd3;
+    padding: 10px;
+}
+.container .btn{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 3px;
+    background-color: #fac779;
+    border: 1px solid #131A22 ;
+    margin-bottom: 15px;
+}
+.spacer{
+    font-size: 13px;
+    text-align: center;
+    padding: 15px;
+    color: rgb(141, 141, 141);
+}
+
+.btn1{
+    background-color: rgb(234, 234, 234);
+    height: 5vh;
+    width: 21vw;
+    border-radius: 3px;
+    border: 1px solid rgb(170, 170, 170);
+    font-size: 70%;
+}
+
+footer{
+    width: 100vw;
+    overflow: hidden;
+    border-top: 2px solid rgb(201, 201, 201);
+    margin: 50px 0 50px 0;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    padding: 30px ;
+    justify-content: center;
+}
+footer li{
+    font-size: 12px;
+    padding-right: 20px;
+}
+footer li a{
+    color: #2e8cd3;
+    text-decoration: none;
+}
+footer div{
+    font-size: 12px;
+    text-align: center;
+}
